@@ -94,3 +94,5 @@
 Внешний IP находится в `EXTERNAL-IP` у сервиса `nginx-ingress-controller` с типом `LoadBalancer`.
 
 Открываем этот адрес в  браузере http://87.239.106.21
+
+![скриншот](https://github.com/nefrit84/geekbrains-conteinerization/blob/hw5/homework/5.kubernetes-network/Screenshot-Redmine.png)
