@@ -1,0 +1,19 @@
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: redmine-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  namespace: redmine
+spec:
+  rules:
+  - http:
+      paths:
+      - path: "/"
+        pathType: Prefix
+        backend:
+          service:
+            name: redmine-service
+            port:
+              number: 80
