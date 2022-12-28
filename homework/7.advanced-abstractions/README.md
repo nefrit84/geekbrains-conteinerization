@@ -68,12 +68,12 @@
 Открываем в браузере адрес `87.239.110.8`
 
 
-![скриншот](https://github.com/nefrit84/geekbrains-conteinerization/blob/HW7/homework/7.advanced-abstractions/prometheus-app.png)
+![скриншот](https://github.com/nefrit84/geekbrains-conteinerization/blob/master/homework/7.advanced-abstractions/prometheus-app.png)
 
 Согласно заданию открываем `Status -> Targets`, видим все ноды кластера.
 
-![скриншот](https://github.com/nefrit84/geekbrains-conteinerization/blob/HW7/homework/7.advanced-abstractions/prometheus-status-targets.png)
+![скриншот](https://github.com/nefrit84/geekbrains-conteinerization/blob/master/homework/7.advanced-abstractions/prometheus-status-targets.png)
 
 На вкладке Graph выполняем запрос `node_load1` - это минутный Load Average для каждой из нод в кластере.
 
-![скриншот](https://github.com/nefrit84/geekbrains-conteinerization/blob/HW7/homework/7.advanced-abstractions/prometheus-node-load.png)
+![скриншот](https://github.com/nefrit84/geekbrains-conteinerization/blob/master/homework/7.advanced-abstractions/prometheus-node-load.png)
